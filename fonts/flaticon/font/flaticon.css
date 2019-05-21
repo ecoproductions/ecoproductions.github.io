@@ -1,13 +1,12 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 01/03/2019 00:45
+  	Creation date: 23/10/2017 08:34
   	*/
 
 @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -23,17 +22,24 @@
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
-font-style: normal;
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+	font-family: Flaticon;
+	font-style: normal;
+	/*font-size: 20px;	
+	margin-left: 0px;*/
 /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-window:before { content: "\f100"; }
-.flaticon-measuring:before { content: "\f101"; }
-.flaticon-step-ladder:before { content: "\f102"; }
-.flaticon-interior-design:before { content: "\f103"; }
-.flaticon-sit-down:before { content: "\f104"; }
-.flaticon-turned-off:before { content: "\f105"; }
+.flaticon-building-design-of-lines:before { content: "\f100"; }
+.flaticon-home-1:before { content: "\f101"; }
+.flaticon-house-4:before { content: "\f102"; }
+.flaticon-home:before { content: "\f103"; }
+.flaticon-insurance:before { content: "\f104"; }
+.flaticon-house-3:before { content: "\f105"; }
+.flaticon-house-2:before { content: "\f106"; }
+.flaticon-house-1:before { content: "\f107"; }
+.flaticon-cityscape-1:before { content: "\f108"; }
+.flaticon-house:before { content: "\f109"; }
+.flaticon-cityscape:before { content: "\f10a"; }
